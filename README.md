@@ -24,11 +24,12 @@ now we get `16511231,505213,217057` in the file
 To encrypt go to the repository folder, open terminal then run  
 `python3 rsa.py -e -f 'test.txt' -k keypair.txt`  
 To decrypt the file test.txt.enc, run  
-`python3 rsa.py -d -f 'test.txt.enc' -k keypair.txt`  
+`python3 rsa.py -d -f 'test.txt.enc' -k keypair.txt.enc`  
 
 
 ## To be noticed  
 This repo is used to test Travis CI work
+[![Build Status](https://travis-ci.com/yukimuon/rtool.svg?branch=master)](https://travis-ci.com/yukimuon/rtool)
 
 <sub>  
 
